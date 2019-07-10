@@ -1,0 +1,14 @@
+{
+    "name": "rafail/framework",
+    "require": {
+        "twig/twig": "^1.42"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cms\\" : "cms/",
+            "Cms\\Controllers\\" : "cms/controllers",
+            "Engine\\" : "engine/",
+            "Engine\\DI\\": "engine/DI"
+        }
+    }
+}

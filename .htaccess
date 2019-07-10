@@ -1,0 +1,3 @@
+Options All -ExecCGI -Includes +FollowSymLinks
+RewriteEngine On
+RewriteRule ^(.*)$ public/index.php [NC,L]
